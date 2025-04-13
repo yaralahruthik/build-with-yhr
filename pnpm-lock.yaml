@@ -13,9 +13,6 @@ importers:
       astro:
         specifier: ^5.6.1
         version: 5.6.1(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.1)
-      sharp:
-        specifier: ^0.32.5
-        version: 0.32.6
     devDependencies:
       husky:
         specifier: ^9.1.7
@@ -29,6 +26,9 @@ importers:
       prettier-plugin-astro:
         specifier: ^0.14.1
         version: 0.14.1
+      sharp:
+        specifier: ^0.32.6
+        version: 0.32.6
 
 packages:
   "@astrojs/compiler@2.11.0":
