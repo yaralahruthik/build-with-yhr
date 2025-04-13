@@ -20,6 +20,11 @@ export default defineConfig({
           label: "GitHub",
           href: "https://github.com/yaralahruthik/build-with-yhr",
         },
+        {
+          icon: "discord",
+          label: "Discord",
+          href: "https://discord.gg/qyjMPHq8",
+        },
       ],
       sidebar: [
         {
