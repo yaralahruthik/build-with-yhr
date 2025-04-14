@@ -7,7 +7,7 @@ const entries = await getCollection("docs");
 // Map the entry array to an object with the page ID as key and the
 // frontmatter data as value.
 const pages = Object.fromEntries(entries.map(({ data, id }) => [id, { data }]));
-
+console.log("lool");
 export const { getStaticPaths, GET } = OGImageRoute({
   // Pass down the documentation pages.
   pages,
