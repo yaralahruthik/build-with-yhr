@@ -7,6 +7,9 @@ export default defineConfig({
   site: "https://build.withYHR.com",
   integrations: [
     starlight({
+      components: {
+        Head: "./src/components/Head.astro",
+      },
       title: "Build withYHR",
       logo: {
         dark: "./src/assets/logo-dark.svg",
